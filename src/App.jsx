@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import Header from "./Components/Header";
 import Item from "./Components/Item";
+import Footer from "./Components/Footer";
 import { db } from "./data/db"
 function App() {
 
@@ -91,6 +92,7 @@ function App() {
                     </div>
                 </div>
             </main>
+            <Footer />
         </>
     )
 }
